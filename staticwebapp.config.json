@@ -1,1 +1,8 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/get**",
+      "rewrite": "https://httpbin.org/get**"
+    }
+  ]
+}
