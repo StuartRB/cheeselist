@@ -1,7 +1,7 @@
 import React from "react";
 
 const CheeseList = () => {
-  const cheeses = ["cheddar", "brie", "manchego", "comte"]
+  const cheeses = ["cheddar", "brie", "manchego", "comte", "stilton"]
 
   return (
       <ul>
