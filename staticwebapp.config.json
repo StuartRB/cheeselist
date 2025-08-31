@@ -3,6 +3,10 @@
     {
       "route": "/api/{*path}",
       "rewrite": "https://cheese-api-web-app-cah9e3dtf3gtc9h8.ukwest-01.azurewebsites.net/api/{path}"
+    },
+    {
+      "route": "/*",
+      "rewrite": "/index.html"
     }
   ]
 }
