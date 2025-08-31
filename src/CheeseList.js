@@ -8,7 +8,7 @@ const CheeseList = () => {
     const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("/get")   // replace with your API endpoint
+    fetch("/api/cheese")   // replace with your API endpoint
       .then((response) => response.json())
       .then((json) => setData(json))
       .catch((err) => console.error("Error fetching:", err));
