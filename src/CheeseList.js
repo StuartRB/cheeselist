@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const CheeseList = () => {
 
-  const cheeses = ["cheddar", "brie", "manchego", "comte", "stilton", "blue"]
+  const cheeses = ["cheddar", "brie", "manchego", "comte", "stilton", "blue", "gouda"]
 
     const [data, setData] = useState(null);
 
